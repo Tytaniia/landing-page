@@ -1,9 +1,7 @@
 body {
-    margin: 0 200px;
-    background-color:black;
-    display: flex;
-    flex: auto;
-    
+    margin: 0 150px;
+    background-color:black; 
+    margin-bottom: 45px;   
 }
 
 .inside-padding {
@@ -41,8 +39,7 @@ a:any-link {
     align-items: center;  
     padding: 65px;
     flex-wrap: nowrap;
-    gap: 30px;
-    
+    gap: 30px;  
 
 }
 
@@ -77,25 +74,20 @@ button {
     border: none;
     color: white;
 }
+
 .second-container {
     display: flex;
-    padding: 0 100px;
+    align-items: flex-start;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
     justify-content:center;
-    margin-bottom: 50px;
-    gap: 20px
-
+    gap: 30px;
 }
 
 .text {
     font-size:small;
-    width: 115px;
-}
-
-.hero-second {
-    text-align: center;
- border: solid;
- background-color: white;
- 
+    width: 108px;
 }
 
 img {
@@ -106,3 +98,60 @@ img {
     border: solid #3882f6;
 }
 
+
+.quote-container {
+    background-color:#e5e7eb;
+    color: white; 
+    padding: 50px 140px;   
+    
+}
+.quote {
+    font-size: 28px;
+    font-style:italic;
+    color: #1f2937;
+}
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.footer-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+.footer {
+    background-color: #3882f6;
+    padding: 0 50px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width:500px;
+    
+}
+.footer-left {
+    flex-wrap: wrap;
+    width: 400px;
+    margin-right:auto;
+
+    
+}
+.footer-right {
+    justify-content: flex-end;
+    align-self: center;
+    flex-wrap: wrap; 
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#button {
+    border: solid white 2px;
+}
